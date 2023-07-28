@@ -8,5 +8,7 @@
 import XCTest
 
 final class MyClassTest: XCTestCase {
-    
+    func test_zero(){
+        XCTFail("Test not yet implemented in MyClassTests")
+    }
 }
