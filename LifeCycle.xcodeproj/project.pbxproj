@@ -13,7 +13,6 @@
 		16744ABE2A73F09600633953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16744ABC2A73F09600633953 /* Main.storyboard */; };
 		16744AC02A73F09700633953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16744ABF2A73F09700633953 /* Assets.xcassets */; };
 		16744AC32A73F09700633953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16744AC12A73F09700633953 /* LaunchScreen.storyboard */; };
-		16744ACE2A73F09800633953 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16744ACD2A73F09800633953 /* LifeCycleTests.swift */; };
 		16744AD82A73F09800633953 /* LifeCycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16744AD72A73F09800633953 /* LifeCycleUITests.swift */; };
 		16744ADA2A73F09800633953 /* LifeCycleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16744AD92A73F09800633953 /* LifeCycleUITestsLaunchTests.swift */; };
 		16744AE72A73F11E00633953 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16744AE62A73F11E00633953 /* MyClass.swift */; };
@@ -47,7 +46,6 @@
 		16744AC22A73F09700633953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16744AC42A73F09700633953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16744AC92A73F09700633953 /* LifeCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16744ACD2A73F09800633953 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		16744AD32A73F09800633953 /* LifeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16744AD72A73F09800633953 /* LifeCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleUITests.swift; sourceTree = "<group>"; };
 		16744AD92A73F09800633953 /* LifeCycleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		16744ACC2A73F09800633953 /* LifeCycleTests */ = {
 			isa = PBXGroup;
 			children = (
-				16744ACD2A73F09800633953 /* LifeCycleTests.swift */,
 				16744AE82A73F1FD00633953 /* MyClassTests.swift */,
 			);
 			path = LifeCycleTests;
@@ -276,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16744AE92A73F1FD00633953 /* MyClassTests.swift in Sources */,
-				16744ACE2A73F09800633953 /* LifeCycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
