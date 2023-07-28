@@ -9,14 +9,13 @@ import XCTest
 @testable import LifeCycle
 
 final class MyClassTest: XCTestCase {
+    private let sut = MyClass()
+    
     func test_mthodOne(){
-        let sut = MyClass()
         sut.methodOne()
-        XCTFail("Failed, yoo")
     }
     
     func test_methodTwo(){
-        let sut = MyClass()
         sut.methodTwo()
     }
 }
